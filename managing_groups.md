@@ -1,45 +1,25 @@
 # Managing user groups
 
-The users can be added to the user groups and inherit the permissions of the user groups binding.
+As an administrator, you can assign a user to a user group so that the user inherits the permissions of the group.
 
-## Create user groups
 
-1. Click **Create Group** and enter the name.
+## Creating a user group
+This topic instructs how to create a new user in EnoS IAM.
 
-2. Click **Next** and add users to the group. It includes the internal and external users in this organization.
+1. In the navigation panel, click **IAM>User Group**.
+2. Click **New Group**.
+3. In **Basic Information** page, fill the basic information. Click **Next**.
+4. In **Add Users** page, click **Assign Users to Group**.
+5. In the pop-up window, select the users to be assigned to this group. Then Click **Save**.
+6. In **Assign Policies** page, click **Assign Policies**.
+7. In the pop-up window, select the policies to be assigned to this group. Then click **Save**
+8. Click **Save** to create the User group.
 
-3. Click **Next** and Click **Add Permissions** to grant the existing policies.
 
-4. Click **Save** and it will take effect immediately.
 
-## Manage the group members
 
-1. Click **Group Member** and view the users who have been added.
-
-2. Click **Add Users to Group** to add new users to this user group.
-
-3. Click **Delete** to remove the users from the user group.
-
-4. Click **Save** to save the changes.
-
-## Manage the Authorization
-
-1. Click **Authorize** and view the authorization status.
-
-2. Click **Add Permissions** to grant new policies to this user group.
-
-3. Click **Delete** to revoke the policies.
-
-4. Click **Save** to save the operations.
-
-## Delete the user group
-
-1. Click **Delete** and confirm.
-
-2. Users belonging to this user group will automatically revoke the appropriate permissions.
-
-## Edit the internal user accounts
-
-1. Click **Edit** to reset the name of user group.
-
-2. Click **Save** and the operations will take effect directly.
+## Deleting a user group
+When deleting a user group, the users belong to this user group will automatically revoke the appropriate permissions.
+1. In the navigation panel, click **IAM>User Group**.
+2. Click ![image](media/delete_icon.png) of the user group to be deleted.
+3. In the pop-up window, click **Confirm** to delete the user group.

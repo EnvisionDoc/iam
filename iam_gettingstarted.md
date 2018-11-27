@@ -14,4 +14,4 @@ A typicle flow to manage user accounts and grant authorization policies to user 
 
 2. Edit the authorization of user accounts by changing the granted policies or adding the user to specific user groups.
 
-If there are no target policies or user groups, please create the policy or user group first. For more information, see [Managing policies](managing_policies) and [Managing user groups](managing_groups).
+If there are no authorization policies or user groups for selection yet, create the policies and user groups first. For more information, see [Managing policies](managing_policies) and [Managing user groups](managing_groups).

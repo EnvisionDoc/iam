@@ -1,41 +1,86 @@
 # Managing users
+This topic instructs how to manage and authorize user in EnoS IAM.
 
-There are two kinds of user accounts, namely the internal and external users. The administrator can manage the lifecycle of internal user account and manage the authorization of all user accounts.
+## Creating and authorizing an internal user
+This topic instructs how to create and authorize an internal user in EnoS IAM.
 
-## Create an internal user account
+### Step 1: Creating an internal user
+1. In the navigation panel, click **IAM>User**.
+2. In **Internal User** tab, Click **New User**.
+3. In **Basic Information** step, fill in the basic information of the new user and click **Next**.
+   - **Send By**: You can choose to send the password to the owner of the user account via phone or email. You also can sent the password in other safety way, such as,  .
 
-1. Click "Create User" under the "Internal User".
+### Step 2: Grant permission
+You can assign permission for a user in the following approaches:
+- Granting policies
+- Assigning user to user groups. In this approach, the user will inherit all permissions that are assigned to the user groups.
 
-2. Finish the basic information settings and click "Next". The basic information includes username, password, moblie phone number, email address and the way to send the account information to users. Please note that the username is global unique.
+To grant policies:
+  1. In **Policies** tab, click **Grant Permissions**.
+  2. In the pop-up window, select policies to be assigned to this user and click **Save**.
+  3. Click **Save** to create the user.
 
-3. Edit the authorization. It supports granting policies or adding user groups. And the user will inherit the permissions of the user group binding.
+To assign user to groups:
+ 1. In **Assign User to Group** tab, click **Assign to User Group**.
+ 2. In the pop-up window, select User group to be assigned to this user and click **Save**.
+ 2. Click **Save** to create the user.
 
-4. Click "Save" and it will take effect directly.
+<!--可能会被移到gettingstarted里-->
 
-## Add an external user account
 
-1. Click "Add User" under the "External User".
+## Adding and authorizing an external user
+This topic instructs how to add and authorize an external user in EnoS IAM.
 
-2. Enter the full username, click the Enter button, and then click "Confirm". The external user account has been added.
+### Step 1: Import an external user
+1. In the navigation panel, click **IAM>User**.
+2. In **External User** tab, Click **Import User**.
+3. In the pop-up windows, enter the full username of the external user. If the name is correct, the detailed information will display in the dialog. Then click **Confirm**.
+4. Click **Next**.
 
-3. Click "Next", and edit the authorization. It also supports granting policies or adding user groups.
+### Step 2: Grant permission
+You can assign permission for a user in the following approaches:
+- Granting policies
+- Assigning user to user groups. In this approach, the user will inherit all permissions that are assigned to the user groups.
 
-4. Click "Save".
+To grant policies:
+  1. In **Policies** tab, click **Grant Permissions**.
+  2. In the pop-up window, select policies to be assigned to this user and click **Save**.
+  3. Click **Save** to import the user.
 
-## Delete the user accounts
+To assign user to groups:
+ 1. In **Assign User to Group** tab, click **Assign to User Group**.
+ 2. In the pop-up window, select User group to be assigned to this user and click **Save**.
+ 2. Click **Save** to import the user.
 
-1. Click "Delete" and the internal user account will be completely deleted.
 
-2. Click "Remove" and the external user account will not only be directly removed from the current organization, but also cannot access the data of the organization any more.
 
-## Edit the internal user accounts
 
-1. Click "Edit" to reset the password or the account status, including enable and disable.
 
-2. Click "Save" and the operations will take effect directly.
+## Deleting an internal user
+Delete an internal user means that this user account is completely deleted from the EnOS Cloud.
 
-## Manage the user Authorization
+1. In the navigation panel, click **IAM>User**.
+2. In **Internal User** tab, click ![Image](media/delete_icon.png) after the user to be deleted.
+3. In the pop-up window, click **Confirm** to delete this user account complete.
 
-1. Click "Authorize" and view the authorization status.
+## Remove an external user
+Remove an external user means that this user is removed from the current organization.  
 
-2. Edit the authorization of user accounts by changing the granted policies or added user groups.
+1. In the navigation panel, click **IAM>User**.
+2. In **External User** tab, click ![Image](media/delete_icon.png) after the user to be deleted.
+3. In the pop-up window, click **Confirm** to remove this user.
+
+
+## Resetting password
+
+1. In the navigation panel, click **IAM>User**.
+2. In **Internal User** tab, click ![Image](media/edit_icon.png) after the user to be reset password.
+3. In **Edit User Information** page, click **Reset** next to the password. System will generate a new password which shows next to the  **Reset**.
+4. Remember this password and click **Save** to reset the password.
+
+
+## Enabling/Disabling user account
+
+1. In the navigation panel, click **IAM>User**.
+2. In **Internal User** tab, click ![Image](media/edit_icon.png) after the user to be enabled/disabled password.
+3. click **Save** to enable/disable the user account.

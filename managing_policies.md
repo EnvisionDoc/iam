@@ -1,31 +1,30 @@
-# Managing policies
+# Managing policy
 
-The Policy refers to a group of authorities, including the products of EnOS platform and the data access of assets. There is a built-in system policy, named "administrator", which indicates administrator privileges. It also supports to create the customized policies.
+This topic instructs how to manage policy in EnoS IAM.
 
-## Create a policy
+## Creating a policy
 
-1. Click "Create Policy", enter the name and description. The name is unique in this organization.
+This topic instructs how to create policy in EnoS IAM. You can create a policy in the following approaches:
 
-2. Grant permissions to use the products of EnOS platform, or to access the data of assets. For more information about the asset permissions, see the note of [Application authorization](application_authorization).
+- Granting Permission to certain services
+- Granting full permission to all the services including new added service.
 
-3. Click "Save" to save all operations.
 
-## Manage the authorization
+### Procedure
 
-1. Click "Authorize" and view the authorization status.
+1. In the navigation panel, click **IAM>Policy**.
+2. Click **New Policy**.
+3. In **Basic Information** page, fill in the basic information of the policy. Then click **Next**.
+4. In **Grant Permissions** page, you can give permission base on the EnOS service.
+  - Tick the checkbox of the services to be granted.
+  - Tick the checkbox of all to give full permission to all the services.
+5. Click **Save** to create the policy.
 
-2. Change the permissions of the products and assets.
 
-3. Click "Save" to save the operations.
+## Deleting a policy
 
-## Delete the policy
+ Users or user groups that have been granted to this policy, will automatically revoke the appropriate permissions.
 
-1. Click "Delete" and confirm.
-
-2. Users or user groups that have been granted this policy, will automatically revoke the appropriate permissions.
-
-## Edit the policy
-
-1. Click "Edit" to reset the name or description of the policy.
-
-2. Click "Save" and the operations will take effect directly.
+1. In the navigation panel, click **IAM>Policy**.
+2. Click ![image](media/delete_icon.png) of the policy to be deleted.
+3. In the pop-up window, click **Confirm** to delete this policy.
