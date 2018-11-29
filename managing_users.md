@@ -34,7 +34,7 @@ To add user to groups:
 How to add and authorize a user from another OU.
 
 ### Step 1: Import an external user
-1. In the navigation panel, click **IAM > User**.
+1. In the EnOS console, click **IAM > User** from the left navigation panel.  
 2. In the **External User** tab, Click **Import User**.
 3. In the pop-up windows, enter the full username of the external user. If the name is correct, the detailed information of the user will display in the dialog. Then click **Confirm**.
 4. Click **Next**.
@@ -51,7 +51,7 @@ Granting permission for an external user is the same as for an internal user.
 
 When you delete an internal user, this user account is completely removed from the EnOS Cloud.
 
-1. In the navigation panel, click **IAM > User**.
+1. In the EnOS console, click **IAM > User** from the left navigation panel.  
 2. In **Internal User** tab, click ![Image](media/delete_icon.png) after the user to delete.
 3. In the pop-up window, click **Confirm** to delete this user account complete.
 
@@ -59,13 +59,13 @@ When you delete an internal user, this user account is completely removed from t
 ## Remove an external user
 When you remove an external user, this user is removed only from the current organization, the user still exists in its root organization and other organizations that the user is imported into.
 
-1. In the navigation panel, click **IAM > User**.
+1. In the EnOS console, click **IAM > User** from the left navigation panel.  
 2. In the **External User** tab, click ![Image](media/delete_icon.png) after the user to delete.
 3. In the pop-up window, click **Confirm** to remove this user.
 
 ## Resetting password
 
-1. In the navigation panel, click **IAM > User**.
+1. In the EnOS console, click **IAM > User** from the left navigation panel.  
 2. In the **Internal User** tab, click ![Image](media/edit_icon.png) after the user to reset password for.
 3. In the **Edit User Information** page, click **Reset** next to the password. System will generate a new password which shows next to the  **Reset**.
 4. Store this password in safety and click **Save**.

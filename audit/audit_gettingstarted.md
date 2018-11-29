@@ -1,8 +1,17 @@
-# 快速入门
+# Getting started with IAM
 
-## 历史事件查询
 
-1. 点击“控制台”，在左侧导航栏中选择“操作审计“。
-2. 支持最近30日的历史事件查询。选择过滤条件，然后点击查询。过滤条件包括”用户名“，”事件名称“，”资源类型“，”资源名称“以及”时间“。事件相关定义，请参考”事件说明“。
-3. 点击事件记录左侧的”展开“按钮，可以查看该记录的关键信息。
-4. 点击事件记录右侧的”查看详情“，可以查看该记录的完整信息。
+This article instructs how to view the detailed log of a particle event.
+
+**Note:** Action Auditing only supports querying the logs within 30 days.
+
+
+## Procedure
+
+You'll search a particle event by specifying the search type, the keywords and the time range. And then you can view the details log of this event.
+
+1. In the EnOS console, click **Auditing** from the left navigation panel.
+2. Select a type in **filter**, enter the keyword. You also can set a time range to limit the search result.
+3. Click **Search** and the search result will be display in the event list.
+4. Click the ![Image](../media/view_icon.png) of the event you want to check.
+5. The detailed log information is displayed in the pop-up windows. For detailed information of the event log, see [Event log schema](log_details).

@@ -3,7 +3,7 @@
 This article instructs how to import LDAP users from an LDAP server and authorize the LDAP users through IAM.
 
 Process of importing and authorizing an LDAP user.
-![Image](media/flow1.png)
+![Image](../media/flow1.png)
 
 
 ## Target audience
@@ -65,7 +65,7 @@ You can authorize the LDAP user individually or by adding the LDAP users to an a
 - The authorized LDAP users can directly login to EnOS Cloud with proper access rights.
 - The unauthorized LDAP users cannot access to any services after logging in. Therefore, they need to contact the OU admin to request permissions.
 
-For more information, see [Managing user](../managing_users.md)
+For more information, see [Managing user](../managing_users)
 
 
 ## Results

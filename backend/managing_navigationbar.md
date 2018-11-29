@@ -1,6 +1,13 @@
 # 管理导航栏
 
+In Menu management page, you can
+
+This article instructs how to create and manage navigation panel. You also can synchronize the menu to IAM for Authorization purpose.
+
+# Manage navigation panel
 系统管理员可以新建或编辑平台产品模块的菜单信息，同步菜单信息（顺序、ID）到IAM并进行注册。同步完成后，组织的管理员用户可以通过**IAM>策略管理**，创建策略并选择需要被授权的菜单。
+
+OU owner can create and edit the navigation panel of the EnOS console based on the service module.
 
 添加菜单时，需要选择菜单的父节点（分类、一级菜单）。若无，需要先添加父节点。平台支持最多两级菜单。
 

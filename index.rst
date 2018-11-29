@@ -55,8 +55,8 @@ Identity and Access Management
 
    audit/audit_overview
    audit/audit_gettingstarted
-   audit/event_reference
-   audit/log_event_overview
+   audit/log_details
+   audit/event_name_details
 
 .. toctree::
    :maxdepth: 1
