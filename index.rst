@@ -13,7 +13,14 @@ Identity and Access Management
     :caption: Learn
 
     iam_overview
-    iam_gettingstarted
+    iam_concepts
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Getting started
+
+   iam_gettingstarted_adduser
+
 
 .. toctree::
    :maxdepth: 1
@@ -24,6 +31,12 @@ Identity and Access Management
    managing_groups
    enabling_disabling_multi_factor_auth.md
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Best practice
+
+   best_practice
+
 
 .. toctree::
    :maxdepth: 1
@@ -31,8 +44,29 @@ Identity and Access Management
 
    ldap/ldap_overview
    ldap/ldap_gettingstarted
-   ldap/enabling_disabling_ldap_login.md
-   ldap/synchronizing_ldap.md
+   ldap/enabling_disabling_ldap_login
+   ldap/synchronizing_ldap
+   ldap/ldap_faq
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Auditing
+
+   audit/audit_overview
+   audit/audit_gettingstarted
+   audit/event_reference
+   audit/log_event_overview
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Backend administration
+
+   backend/backend_overview
+   backend/backend_gettingstarted
+   backend/managing_navigationba
+   backend/managing_organization
+
 
 Downloads
 """"""""

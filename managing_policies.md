@@ -1,30 +1,25 @@
-# Managing policy
+# Creating and managing policy
 
-This topic instructs how to manage policy in EnoS IAM.
+This article instructs how to manage policies that define the access permissions to specific resources.
 
 ## Creating a policy
 
-This topic instructs how to create policy in EnoS IAM. You can create a policy in the following approaches:
+You can create a policy in the following approaches:
 
-- Granting Permission to certain services
-- Granting full permission to all the services including new added service.
+- Granting permission to certain services
+- Granting full permission to all the services including newly added service.
 
-
-### Procedure
-
-1. In the navigation panel, click **IAM>Policy**.
+1. In the navigation panel, click **IAM > Policy**.
 2. Click **New Policy**.
-3. In **Basic Information** page, fill in the basic information of the policy. Then click **Next**.
-4. In **Grant Permissions** page, you can give permission base on the EnOS service.
-  - Tick the checkbox of the services to be granted.
-  - Tick the checkbox of all to give full permission to all the services.
-5. Click **Save** to create the policy.
+3. In the **Basic Information** page, fill in the basic information of the policy. Then click **Next**.
+4. In the **Grant Permissions** page, you can define permissions to the services by ticking the checkbox of the services to be granted.
+5. Click **Save** to complete creating the policy.
 
 
 ## Deleting a policy
 
- Users or user groups that have been granted to this policy, will automatically revoke the appropriate permissions.
+ When you delete a policy, users and user groups who have been granted this policy, EnOS will revoke corresponding permissions for the affected users.
 
-1. In the navigation panel, click **IAM>Policy**.
-2. Click ![image](media/delete_icon.png) of the policy to be deleted.
-3. In the pop-up window, click **Confirm** to delete this policy.
+1. In the navigation panel, click **IAM > Policy**.
+2. Click the delete icon ![image](media/delete_icon.png) for the policy to delete.
+3. In the pop-up window, click **Confirm** to complete deleting this policy.

@@ -1,76 +1,72 @@
 # Getting started with LDAP federation
 
-This topic instructs how to import the LDAP users from LDAP server and authorize LDAP user in IAM.
+This article instructs how to import LDAP users from an LDAP server and authorize the LDAP users through IAM.
 
-Workflow of getting started with LDAP users
+Process of importing and authorizing an LDAP user.
 ![Image](media/flow1.png)
-(TBD)
 
 
 ## Target audience
-   System Administrator
+   OU Administrator
 
 
 ## Before you begin
 
-   1. Ensure that the LDAP users have been created in the LDAP service and the LDAP server is working properly.
-   2. Known the username and password of administrator account of the LDAP server. This administrator account should at least have full access permissions to all the base DNs.
-   3. An user with LDAP administration authorization has been created. For detailed information, see [Managing User](../managing_user.md).
-   4. The access policy for LDAP federated users have been created in EnOS IAM. For detailed information, see [Managing policy](../managing_policies.md).
+   1. Ensure that the LDAP server is working properly.
+   2. You must know the username and password of the administrator account of the LDAP server. This administrator account should at least have full access to all base DNs.
+   3. The access policies for LDAP users have been created in IAM. For detailed information, see [Managing policy](../managing_policies).
 
 ## Procedure
 
-### Step 1： Establish LDAP server connection
+### Step 1： Establish connection to LDAP server
 
-   To establish the LDAP server connection:
+   To establish connection to the LDAP server:
 
-   1. Log on to EnOS cloud with an user has LDAP administrator authorization.
-   2. In the navigation panel, click **IAM>LDAP Federation** .
-   3. In **LDAP** page, Click **New LDAP Federation**. And configure the LDAP connection as below.
-
+   1. In the EnOS console, click **IAM > LDAP Federation** from the left navigation panel.
+   2. In the **LDAP** page, Click **New LDAP Federation**. And provide the following settings:
       - **Realm**: The unique identity of the LDAP connection.
       - **Primary LDAP server**: The URL or IP address of the LDAP server.
-      - **Port number**：Optional, port number of the LDAP server.
-      - **base DN**: The root distinguished name (DN) to use when importing users against the directory server. Support configure multiple base DNs under one LDAP server at once. Multiple base DNs are separated by semicolon (;). For example: cn=users,dc=example,dc=com;ou=users,dc=example,dc=com.
-      - **Filter**: You can define a condition filter to limit the entries within base DNs.For example: FILTER=memberOf=CN=group,CN=developers,DC=example,DC=com.
+      - **Port number**：Optionally, the port number of the LDAP server.
+      - **Base DN**: The root distinguished name (DN) to use when importing users from the directory server. You can configure multiple base DNs under one LDAP server at once. Multiple base DNs are separated by semicolon (;). For example: cn=users,dc=example,dc=com;ou=users,dc=example,dc=com.
+      - **Filter**: The filter to use when limit the entries within the base DNs. For example: FILTER=memberOf=CN=group,CN=developers,DC=example,DC=com.
           **Note**: Ensure that the entries have been selected are all valid account entries.
-      - **User DN or name**: User name of the LDAP administrator account.
-      - **Password**: Password of the LDAP administrator account.
-      - **Attribute mapping**: Define the mapping relationship between system attributes and LDAP attributes.
+      - **User DN or name**: The username of the LDAP administrator account.
+      - **Password**: The password of the LDAP administrator account.
+      - **Attribute mapping**: The mapping relationship between system attributes and LDAP attributes.
 
-![Image](media/newldap.png)   (TBD)
+![Image](media/newldap.png)
 
-   3.   Click **Test**. It checks the connection to LDAP server, legality of the information and data obtaining.
+   3.   Click **Test** to test the connection to the LDAP server.
 
-       - If pass the test, click **Done** to create the LDAP connection.
-       - If doesn't pass the test, you need to check the information you enter is correct and re-test.
+       - If test succeed, click **Done** to create the LDAP connection.
+       - If test failed, you need to check the correctness of the information you entered and re-test the connection.
 
 
 ## Step 2：Enable LDAP Authentication
 
-   After the LDAP connection has been created, in **LDAP Connection** page, click the **LDAP Authentication** to enable LDAP users login.
+After the LDAP connection has been created, in the **LDAP Connection** page, toggle the **LDAP Authentication** switch button to enable LDAP users login.
 
 
+## (Optional) Step 3: Import LDAP users to IAM
 
+Import the LDAP users to IAM in advance can help you to authorize the LDAP users in batch.
 
-## (Optional) Step 3: Import LDAP users to EnOS IAM
+To import LDAP users, do the following steps:
+1. In the **LDAP Federation** page, click **view** after the LDAP server to edit.
 
-Import the LDAP users in advance can help you to authorize your LDAP users in batch.
-
-    - The authorized LDAP users can directly log on to EnOS Cloud with appropriate permissions.
-    - Otherwise, the unauthorized LDAP users cannot access to any services after first login. LDAP user needs to contact system administrator to grant permissions.
-
-   1. In **LDAP Federation**, click the **View** after the LDAP server to be edit.
-
-   2. Click **Import account**, then the LDAP users have been selected is imported to EnOS IAM.
-      **Note**: The LDAP users that already exist in the IAM is not imported again.
-
+2. Click **Import Account**, then LDAP users that have been selected are imported to IAM.
+   **Note**: The LDAP users that already existed in the IAM will not be imported again.
 
 
 ## Step 4: Authorize LDAP users
 
-   You can authorize the LDAP user individually or by adding to a authorized group. For more information, see [Managing user](../managing_users.md)
+You can authorize the LDAP user individually or by adding the LDAP users to an authorized group.
+
+- The authorized LDAP users can directly login to EnOS Cloud with proper access rights.
+- The unauthorized LDAP users cannot access to any services after logging in. Therefore, they need to contact the OU admin to request permissions.
+
+For more information, see [Managing user](../managing_users.md)
 
 
 ## Results
-The LDAP users that have been imported and authorized can login to EnOS Cloud with appropriate permissions.
+The LDAP user can then log into EnOS Console with the LDAP account credentials.

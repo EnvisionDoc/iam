@@ -1,14 +1,14 @@
-# Synchronizing LDAP user
+# Synchronizing LDAP users manually
 
+You can manually synchronize user account data from the LDAP server when the LDAP server is updated. For example, when users or directories have been changed.
 
-You can manually synchronize data between the EnOS IAM and the LDAP server if the LDAP server has been updated. For example, user or directory changing.
-
+## Target audience
+   OU Administrator
 
 ## Procedure
 
-1. Log on to EnOS cloud with an user has LDAP administrator authorization.
-2. In the navigation panel, click **IAM>Federation**.
-3. Click **view** of the LDAP connection to be changed.
-4. Click **Synchronize** to synchronize the latest user information from the LDAP server.
+1. In the EnOS console, click **IAM > LDAP Federation** from the left navigation panel.  
+2. Click **View** of the LDAP connection to be changed.
+3. Click **Synchronize** to synchronize the latest user information from the LDAP server.
 
-**Note**: The LDAP users that already exist in the IAM is not imported again.
+**Note**: The LDAP users that already exist in EnOS will not be imported again. The LDAP users who are deleted from LDAP server will be deleted from EnOS as well.

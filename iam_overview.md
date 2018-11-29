@@ -1,10 +1,10 @@
 # IAM overview
 
-EnOS Identity and Access Management (IAM) helps you manage user identities and control access to your resources in EnOS. 通过IAM，你可以创建、管理用户账户，验证账户身份（登陆），并可以控制这些账户对EnOS内资源的操作权限。当组织内存在多用户协同操作资源时，可以按需为用户分配最小权限，降低企业的信息安全风险。
+EnOS Identity and Access Management (IAM) helps you manage user identities and control access to your resources in EnOS. IAM allows you to manage user account lifecycle, authenticate user identities, and control the access rights to the resources in EnOS. When multiple users exist in an organization unit, minimum permission principle can be enforced to reduce risks to your enterprise information ssecurity.
 
 EnOS applies the identity and access management (IAM) scheme to achieve multi-tenancy. In EnOS, each tenant is managed as an organizational unit.  Data that belongs to different organizations are securely segregated and can only be accessed by users that are registered to the organization.
 
-IAM also ensures that a user can access only resources that the user is authorized to access. This is achieved through properly group users and assigning propper access permissions.
+IAM also ensures that a user can access only resources that the user is authorized to access. This is achieved through properly group users and assigning proper access permissions.
 
 The built-in IAM schemes of EnOS provide capabilities of identity management, authentication, and authorization.
 
