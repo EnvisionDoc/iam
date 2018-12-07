@@ -1,8 +1,8 @@
-# Application authorization
+# Application Authorization
 
 It is to authorize the applications to access assets data which are created or purchased of the organization.
 
-## Authorize application
+## Authorize Application
 
 1. Click **IAM > Applicaton Authorization** from the left navigation panel of the EnOS Console.
 

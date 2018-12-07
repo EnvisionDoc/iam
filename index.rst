@@ -6,7 +6,7 @@ Identity and Access Management
    :hidden:
    :caption: Back to
 
-   EnOS fundamental <https://docs.envisioniot.com/docs/enos/en/latest/overview/enos_introduction.html>
+   EnOS Fundamental <https://docs.envisioniot.com/docs/enos/en/latest/overview/enos_introduction.html>
 
 .. toctree::
     :maxdepth: 1
@@ -40,7 +40,7 @@ Identity and Access Management
 
 .. toctree::
    :maxdepth: 1
-   :caption: LDAP federation
+   :caption: LDAP Federation
 
    ldap/ldap_overview
    ldap/ldap_gettingstarted
@@ -56,16 +56,14 @@ Identity and Access Management
    audit/audit_overview
    audit/audit_gettingstarted
    audit/log_details
-   audit/event_name_details
 
 .. toctree::
    :maxdepth: 1
-   :caption: Backend administration
+   :caption: System Administration
 
-   backend/backend_overview
-   backend/backend_gettingstarted
-   backend/managing_navigationba
-   backend/managing_organization
+   system/system_overview
+   system/managing_navigationbar
+   system/managing_organization
 
 
 Downloads

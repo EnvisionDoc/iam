@@ -1,12 +1,15 @@
-# 管理组织
+# Managing Organizations
 
-This article instructs how to create and manage a organization. You also can  authorized the application that created in app management by among all organization.
+This article instructs how to create and manage an organization. You also can assign applications to an organization.
 
 
-## Target audience
+## Target Audience
    OU Owner
 
-## Create a organization
+## Creating an Organization
+
+You can create an organization in the following approaches:
+
 1. In the EnOS console, click **Management > Organization** from the left navigation panel.
 2. Click **New Organization**.
 3. In the **New Organization** page, provide the information of the organization and the owner, Among these settings:
@@ -16,16 +19,16 @@ This article instructs how to create and manage a organization. You also can  au
       - Send by email: indicates to send the account information via sending email to the registered email address.
    - **Password**: you can set the initial password, or you can let the system to auto-generate the password for the account.
 
-(Optional) In the **admin information** section, you can assign an user be the admin of this organization.
+4. (Optional) In the **admin information** section, you can assign a user to be the administrator of this organization.
+   - Click **Assign to**.
+   - In the pop-up window, enter the full username. If the name is correct, the detailed information of the user will display in the dialog. Then click **Confirm**.
 
-4. Click **Assign to**.
-5. In the pop-up window, enter the full username. If the name is correct, the detailed information of the user will display in the dialog. Then click **Confirm**.
-
-6. Click  **Save** on the up-right corner to create the organization.
-
+5. Click  **Save** on the up-right corner to create the organization.
 
 
-## Resetting password of the OU owner
+
+## Resetting Password of an OU Owner
+You can reset the password of an OU Owner in the following approaches:
 
 1. In the EnOS console, click **Management > Organization** from the left navigation panel.
 2. Click ![Image](../media/edit.png) of the organization that the OU owner belongs to.
@@ -34,9 +37,11 @@ This article instructs how to create and manage a organization. You also can  au
 4. Store this password in safety and click **Confirm**.
 
 
-## Define the access permissions to specific resources.
+## Assigning Application to an Organization
+You can assign application to an organization in the following approaches:
+
 1. In the EnOS console, click **Management > Organization** from the left navigation panel.
 2. Click ![Image](../media/authorize.png) of the organization to be updated.
-3. In the **Application Authorization** page, select the application to be assgin to this organization.
-  **Note**: application that created in app management by among all organization.
-4. Click **Save** on the up-right corner to assign the permission
+3. In the **Application Authorization** page, select the applications to be assigned to this organization.
+  **Note**: You can select the applications created by all organizations under this EnOS cloud .  
+4. Click **Save** on the up-right corner to assign the permission.

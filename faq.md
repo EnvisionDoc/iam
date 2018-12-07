@@ -1,21 +1,25 @@
 # FAQ's
 
-## 哪些用户账户可以配置LDAP连接？
-LDAP连接管理是访问控制模块的一个菜单，仅组织管理员可见。所以只有组织管理员可以开启、配置、关闭LDAP服务。
+The topic lists frequently asked questions about IAM.
 
-## 如果关闭LDAP服务，被导入的LDAP用户账号还可以登陆吗？
-不能登录。
-
-## 删除LDAP服务后，被导入的LDAP用户账号还可以登陆吗？
-不能登录，且与被删除的LDAP服务相关的LDAP账号都会被同步删除。
-
-## LDAP用户账号可以作为外部用户，被添加进多个组织吗？
-不能。导入的LDAP用户账号不能作为外部用户，被添加进其他组织。只有在平台创建的用户账号，才可以作为外部用户被添加进多个组织。
+## Q: What kind of user account can configure LDAP federation?
+   A: LDAP Federation is a service module in IAM which is only visible to OU owner or OU administrator. Therefore, only the OU owner and OU administrator allow to enable, disable and configure LDAP federation.
 
 
-## 操作审计支持查询多久的操作记录？
-操作审计支持查询最近30日的操作记录。
+## Q: If the LDAP authentication is disabled, can users imported from the LDAP server still login?
+   A: No. The LDAP user cannot login when LDAP authentication is disabled.
 
 
-## 操作审计记录哪些操作事件的日志？
-当前，操作审计仅记录用户账号在“访问控制”模块内的操作事件。具体的事件详情，请参考“事件说明-事件列表”。
+## Q: If the LDAP connection is deleted, can users imported from this LDAP server still login?
+   A: No. When deleting a LDAP connection, the users imported from this LDAP server is removed from the EnOS as well.
+
+
+## Q: Can users imported from LDAP being added to other organization as an external user?
+   A: No, you can't. The LDAP user cannot be added as an external user to other organizations. Only the users that natively created in EnOS can be import to other organizations as an external user.
+
+## Q: What is the retention period for EnOS Audit logs?
+   A: EnOS Audit stores logs for 30 days.
+
+
+## Q: What kind of events will be logged into audit log?
+   A: Currently, Audit only recorded the event happens in IAM. For detailed event list, see [Event Log Schema](../audit/log_details.)

@@ -1,15 +1,15 @@
-# Creating and managing user groups
+# Creating and Managing User Groups
 
 This article instructs how to create and manage a user group. You can then add a user to a user group so that the user inherits the permissions of the group.
 
-## Target audience
+## Target Audience
 
 OU administrator
 
 
-## Creating a user group
+## Creating a User Group
 
-You can create a user group and associate access policies for the group.
+You can create a user group and associate the access policies for this group.
 
 1. In the EnOS console, click **IAM > User Group** from the left navigation panel.   
 2. Click **New Group**.
@@ -21,10 +21,10 @@ You can create a user group and associate access policies for the group.
 8. Click **Save** to complete creating the user group.
 
 
-## Deleting a user group
+## Deleting a User Group
 
 When you delete a user group, the users belong to this user group will automatically be revoked the appropriate permissions.
 
 1. In the EnOS console, click **IAM > User Group** from the left navigation panel.
-2. Click the delete icon ![image](media/delete_icon.png) for the user group to delete.
+2. Click the delete icon ![image](media/delete.png) for the user group to delete.
 3. In the pop-up window, click **Confirm** to delete the user group.

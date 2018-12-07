@@ -1,17 +1,20 @@
-# Getting started with IAM
+# Getting Started with User Activity Auditing
+
+This article instructs how to view the detailed log of an event.
+
+**Note:** You can query only the activity logs of the last 30 days.
 
 
-This article instructs how to view the detailed log of a particle event.
 
-**Note:** Action Auditing only supports querying the logs within 30 days.
+**Target audience**
 
+OU Owner
 
-## Procedure
+**Procedure**
+To query the details of a user activity, do the following steps:
 
-You'll search a particle event by specifying the search type, the keywords and the time range. And then you can view the details log of this event.
-
-1. In the EnOS console, click **Auditing** from the left navigation panel.
-2. Select a type in **filter**, enter the keyword. You also can set a time range to limit the search result.
+1. In the EnOS Console, click **Auditing** from the left navigation panel.
+2. Select a type in **filter**, enter the keyword. You can also set a time range to show records with a certain time span.
 3. Click **Search** and the search result will be display in the event list.
-4. Click the ![Image](../media/view_icon.png) of the event you want to check.
-5. The detailed log information is displayed in the pop-up windows. For detailed information of the event log, see [Event log schema](log_details).
+4. Click the view icon ![Image](../media/view_icon.png) for the event that you want to check.
+5. The detailed information of an event record is displayed in a pop-up window. For how to interpret the data in an event record, see [Event Log Schema](log_details).

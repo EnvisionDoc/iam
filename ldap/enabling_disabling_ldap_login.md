@@ -1,4 +1,4 @@
-# Enabling LDAP authentication
+# Enabling LDAP Authentication
 
 You can enable or disable the LDAP authentication service for your organization.
 
