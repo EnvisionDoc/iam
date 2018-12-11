@@ -20,6 +20,6 @@ You can create a policy in the following approaches:
 
  When you delete a policy, users and user groups who have been granted this policy, EnOS will revoke corresponding permissions for the affected users.
 
-1. In the EnOS console, click **IAM > Policy** from the left navigation panel.   
-2. Click the delete icon ![image](media/delete.png) for the policy to be deleted.
+1. In the EnOS console, click **IAM > User policy** from the left navigation panel.   
+2. Click the delete icon ![image](media/delete.png) for the policy to delete.
 3. In the pop-up window, click **Confirm** to complete deleting this policy.

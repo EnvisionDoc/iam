@@ -8,9 +8,9 @@ The following are the typical roles in EnOS and the suggested minimum permission
 
 ### Edge Developer
 
-**Major duties**: develop edge software and edge configuration center in order to manage the edge gateway.
+**Major duties**: Develop edge software and edge configuration center in order to manage the edge gateway.
 
-**Recommended permissions**
+**Recommended permissions**:
 
 The following services are the minimum required permissions for this role:
 - Model
@@ -23,7 +23,7 @@ The following services are the minimum required permissions for this role:
 - Set up and debug device connections, including creating products and devices, and testing the communication among the devices in the EnOS console.
 - On-site installation, including installing the edge gateway devices and connecting the cables between edge gateways and devices.
 
-**Recommended permissions**
+**Recommended permissions**:
 
 The following services are the minimum required permissions for this role:
 - Edge Gateway
@@ -31,9 +31,9 @@ The following services are the minimum required permissions for this role:
 
 ### Assets Manager
 
-**Major duties**: create the asset hierarchy and manage assets based on the business case scanarios. Optionally, might create user accounts for internal and external users, for example, IoT engineer, and manage authorization for the users to do their job around EnOS.
+**Major job duties**: Create the asset hierarchy and manage assets based on the business case scanarios. Optionally, might create user accounts for internal and external users, for example, IoT engineer, and manage authorization for the users to do their job around EnOS.
 
-**Recommended permissions**
+**Recommended permissions**:
 
 The following services are the minimum required permissions for this role:
 - Asset Management
@@ -43,7 +43,7 @@ The following services are the minimum required permissions for this role:
 
 **Major duties**: Develop applications based on the APIs and SDKs provided by EnOS to fulfill the business needs.
 
-**Recommended permissions**
+**Recommended permissions**:
 
 The following services are the minimum required permissions for this role:
 - Application Management
@@ -54,13 +54,13 @@ The following services are the minimum required permissions for this role:
 
 ### Data Developer and Analyst
 
-**Major duties**: missioned with data-driven business analysis, their responsibilities are to:
+**Major duties**: Missioned with data-driven business analysis, their responsibilities are to:
 - Based on the data storage and computing capabilities, use the scheduling workflows to perform data extraction, transformation, and loading (ETL).
 - Develop data structure and algorithm
 - Perform data analysis and data mining
 - Design BI reports based on business KPIs to assist business decisions
 
-**Recommended permissions**
+**Recommended permissions**:
 
 The following services are the minimum required permissions for this role:
 - Data IDE

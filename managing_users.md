@@ -13,7 +13,7 @@ You can use the following steps create an internal user that natively belongs to
 
 ### Step 2: Grant Permission
 You can assign permission for a user in the following approaches:
-- Granting policies directly.
+- Granting policies
 - Assigning user to the user groups. In this approach, the user will inherit all permissions that are assigned to the user groups.
 
 To grant policies:
@@ -27,6 +27,7 @@ To add a user to groups:
  2. Click **Save** to create the user.
 
 
+
 ## Adding and Authorizing an External User
 
 How to add and authorize a user from another OU.
@@ -34,13 +35,8 @@ How to add and authorize a user from another OU.
 ### Step 1: Import an External User
 1. In the EnOS console, click **IAM > User** from the left navigation panel.  
 2. In the **External User** tab, Click **Import User**.
-3. In the pop-up window, enter the full username of the external user. If the name is correct, the detailed information of the user will be displayed in the dialog. Then click **Confirm**.
-4. Click **Next** to create .
-
-
-### Step 2: Grant Permission
-
-Granting permission for an external user is the same as for an internal user.
+3. In the pop-up window, enter the full username of the external user. If the name is correct, the detailed information of the user will display in the dialog. Then click **Confirm**.
+4. Click **Next**.
 
 ## Adding and Authorizing an LDAP User
 
@@ -49,7 +45,6 @@ To add an LDAP user, you need to first configure the connection to an LDAP serve
 ### Step 2: Grant Permission
 
 Granting permission for a LDAP user is the same as for an internal user.
-
 
 ## Deleting an Internal User
 

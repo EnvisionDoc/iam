@@ -40,6 +40,6 @@ EnOS adopts Role-Based-Access-Control (RBAC) that is a policy neutral access con
 - Reports: reports that a role can read<!--EnOS 1.1是否支持-->
 - Events: events from an application that a role can view or handle<!--EnOS 1.1是否支持-->
 
-IAM allows OU administrator to define access control rules to grant privileges/permissions of the resources to other accounts through the EnOS Console GUI or through the APIs.
+IAM allows OU administrator to define access control rules to grant privileges/permissions of resources to other accounts through the EnOS Console GUI or through the APIs.
 
 Accounts with proper privileges granted may access the corresponding resources via EnOS service APIs or EnOS Console. Access control validation is performed by IAM service for each access attempt.

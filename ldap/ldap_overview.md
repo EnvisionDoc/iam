@@ -14,7 +14,7 @@ You can also manage the LDAP users in EnOS just as managing the internal and ext
 
 ## Key Concepts
 
-  - LDAP connection: The connection between the LDAP server and the EnOS Cloud. An LDAP connection contains the configuration information of the LDAP server.
+  - LDAP connection: The connection between the LDAP server and EnOS Cloud. An LDAP connection contains the configuration information of the LDAP server.
   - LDAP user: A user who logs in to EnOS via an account that is imported from an LDAP directory.
 
 
@@ -22,4 +22,4 @@ You can also manage the LDAP users in EnOS just as managing the internal and ext
 ## LDAP User Login Workflow
 
 The following figure shows the workflow of the EnOS login method.
-![Image](../media/framework.png)
+![image](../media/framework.png)

@@ -29,7 +29,6 @@ Process of importing and authorizing an LDAP user.
       - **Port number**：Optionally, the port number of the LDAP server.
       - **Base DN**: The root distinguished name (DN) to use when importing users from the directory server. You can configure multiple base DNs under one LDAP server at once. Multiple base DNs are separated by semicolon (;). For example: cn=users,dc=example,dc=com;ou=users,dc=example,dc=com.
       - **Filter**: The filter to use when limit the entries within the base DNs. For example: FILTER=memberOf=CN=group,CN=developers,DC=example,DC=com.
-      -
           **Note**: Ensure that the entries have been selected are all valid account entries.
       - **User DN or name**: The username of the LDAP administrator account.
       - **Password**: The password of the LDAP administrator account.
@@ -42,7 +41,7 @@ Process of importing and authorizing an LDAP user.
 
 ### Step 2: Enable LDAP Authentication
 
-After the LDAP connection has been created, in the **LDAP Connection** page, toggle the **LDAP Authentication** switch button to enable the LDAP users login.
+After the LDAP connection has been created, in the **LDAP Connection** page, toggle the **LDAP Authentication** switch button to enable the LDAP user login.
 
 
 ### (Optional) Step 3: Import LDAP Users to IAM
@@ -58,9 +57,9 @@ To import LDAP users, do the following steps:
 
 ### Step 4: Authorize LDAP Users
 
-You can authorize the LDAP user individually or by adding the LDAP users to the authorized groups.
+You can authorize the LDAP user individually or by adding the LDAP users to the authorized group.
 
-- The authorized LDAP users can directly log in to the EnOS Cloud with proper access rights.
+- The authorized LDAP users can directly log in to EnOS Cloud with proper access rights.
 - The unauthorized LDAP users cannot access to any services after logging in. Therefore, they need to contact the OU administrator to request permissions.
 
 For more information, see [Creating and Managing Users](../managing_users).

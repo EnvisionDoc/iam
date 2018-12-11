@@ -36,9 +36,10 @@ This example makes the following assumptions:
 1. In the EnOS console, click **IAM > Policies** from the left navigation panel.  
 2. Click **New Policy**.
 3. Enter the policy name and click **Next**.
-4. In the **Grant Permission** page, you can grant access to services<!-- or assets-->. After configurating, user only can see and access to the services that grant access.<!--        - Service: the services that the user is allowed to access. After configurating, user only can see and access to the service that grant access.
+4. In the **Grant Permission** page, you can grant access to services<!-- or assets-->. After configurating, user only can see and access to the service that grant access.
+<!--- Service: the services that the user is allowed to access. After configurating, user only can see and access to the service that grant access.
   - Assets: the assets that the user is allowed to access. EnOS supports granting access at 3 levels: individual asset level, asset tree level, and all assets. When assigned access to all assets, the user has access to the data of all assets.
-资产树是否交付-->
+-->
 5. Click **Save** to create the policy.
 
 ## Step 2: Create a User Group
@@ -63,7 +64,7 @@ In this step, you'll create the user in the organization, and add the user into 
      - Send by phone: indicates to send the account information via messaging to the registered mobile phone number.
      - Send by email: indicates to send the account information via sending email to the registered email address.
    - **Password**: you can set the initial password, or you can let the system to auto-generate the password for the account.
-3. In the **Add User to Groups** tab, click **Add User to Group**.
+3. In the **Add User to Groups** tab, click **Add User Group**.
 4. In the pop-up window, select the groups that the user belongs to and click **Save**.
 5. Click **Save** to confirm the change.
 

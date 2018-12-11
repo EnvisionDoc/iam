@@ -5,13 +5,11 @@ This article instructs how to view the detailed log of an event.
 **Note:** You can query only the activity logs of the last 30 days.
 
 
-
 **Target audience**
 
 OU Owner
 
 **Procedure**
-To query the details of a user activity, do the following steps:
 
 1. In the EnOS Console, click **Auditing** from the left navigation panel.
 2. Select a type in **filter**, enter the keyword. You can also set a time range to show records with a certain time span.
