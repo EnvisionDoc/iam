@@ -30,15 +30,18 @@ To add a user to groups:
 
 ## Adding and Authorizing an External User
 
-How to add and authorize a user from another OU.
+You can add and authorize a user from another OU in the following approaches
 
-### Step 1: Import an External User
+### Step 1: Adding an External User
+
+**Adding an user from another OU**
+
 1. In the EnOS console, click **IAM > User** from the left navigation panel.  
 2. In the **External User** tab, Click **Import User**.
 3. In the pop-up window, enter the full username of the external user. If the name is correct, the detailed information of the user will display in the dialog. Then click **Confirm**.
 4. Click **Next**.
 
-## Adding and Authorizing an LDAP User
+**Adding an LDAP User**
 
 To add an LDAP user, you need to first configure the connection to an LDAP server. For more information, see [Getting Started with LDAP Federation](ldap/ldap_gettingstarted).
 

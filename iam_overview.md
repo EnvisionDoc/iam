@@ -17,7 +17,7 @@ EnOS offers the following types of identities:
 - *Service accounts* (a.k.a. Application tokens) are assigned to applications, for accessing the EnOS service APIs.
 - *Device identities* are assigned to all devices (including edge devices) that connect to the EnOS Cloud.
 
-All identities are created under OUs. Among the types of user identities, EnOS provides several types of user accounts. For more information, see [IAM Concepts](iam_concepts).
+All identities are created under organizations. Among the types of user identities, EnOS provides several types of user accounts. For more information, see [IAM Concepts](iam_concepts).
 
 ## Authentication
 

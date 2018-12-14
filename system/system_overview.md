@@ -1,6 +1,6 @@
 # System Management Overview
 
- OU owner can manage the navigation panel and the lifecycle of organizations in the system management menu. <!--audit organization application, decade 不支持-->
+ OU owner can manage the navigation panel and the lifecycle of organizations in the system management menu.
 
 ## Key Functionalities
 

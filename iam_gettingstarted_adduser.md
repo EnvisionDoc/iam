@@ -37,9 +37,9 @@ This example makes the following assumptions:
 2. Click **New Policy**.
 3. Enter the policy name and click **Next**.
 4. In the **Grant Permission** page, you can grant access to services<!-- or assets-->. After configurating, user only can see and access to the service that grant access.
-<!--- Service: the services that the user is allowed to access. After configurating, user only can see and access to the service that grant access.
-  - Assets: the assets that the user is allowed to access. EnOS supports granting access at 3 levels: individual asset level, asset tree level, and all assets. When assigned access to all assets, the user has access to the data of all assets.
--->
+  <!-- Service: the services that the user is allowed to access. After configurating, user only can see and access to the service that grant access.
+    - Assets: the assets that the user is allowed to access. EnOS supports granting access at 3 levels: individual asset level, asset tree level, and all assets. When assigned access to all assets, the user has access to the data of all assets.
+  -->
 5. Click **Save** to create the policy.
 
 ## Step 2: Create a User Group
@@ -51,6 +51,8 @@ In this step, you'll create a user group for the role, and associates the policy
 3. Enter a group name that represents the role that you defined and click **Next**.
 4. Click **Assign Policies** to assign policies for this group.
 5. Click **Save**.
+
+For more information about user group management, see [Creating and managing user groups](managing_groups).
 
 
 ## Step 3: Create a User and Add User into Group
