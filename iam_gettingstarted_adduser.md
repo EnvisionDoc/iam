@@ -6,7 +6,7 @@ This article describes how to create an individual user and grant policies.
 
 You must have OU admin access rights.
 
-**Note**: When a user have multiple accounts, among which one is the admin account. We recommend that the user perform identity and access management operations through the admin account.
+.. note:: When a user have multiple accounts, among which one is the admin account. We recommend that the user perform identity and access management operations through the admin account.
 
 ## About This Task
 
@@ -75,10 +75,13 @@ In this step, you'll create the user in the organization, and add the user into 
 
 If the policies inherited from the user groups are not sufficient, you can add additional policies for the user.
 1. In the EnOS Console, click **IAM > Users** from the left navigation panel.  
-2. Click the authorize icon ![authorize](media/authorize.png) to open .
+2. Click the authorize icon |img| to open .
 3. In the **Polices** tab, click **Assign Policy** .
 4. In the pop-up window, select the policies to assign to this user and click **Save**.
 5. Click **Save** to confirm the change.
 
 ## What to Do Next
 The user will receive account creation notification through the channel as specified in Step 3. The user can then log into EnOS Console with the account information and verify access rights.
+
+
+.. |img| image:: media/authorize.png

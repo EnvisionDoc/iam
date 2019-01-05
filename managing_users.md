@@ -54,7 +54,7 @@ Granting permission for a LDAP user is the same as for an internal user.
 When you delete an internal user, this user account is completely removed from the EnOS Cloud.
 
 1. In the EnOS console, click **IAM > User** from the left navigation panel.  
-2. In **Internal User** tab, click ![Image](media/delete.png) of the user to be deleted.
+2. In **Internal User** tab, click |img1| of the user to be deleted.
 3. In the pop-up window, click **Confirm** to delete this user account complete.
 
 
@@ -62,12 +62,18 @@ When you delete an internal user, this user account is completely removed from t
 When you remove an external user, this user is removed only from the current organization, the user still exists in its root organization and other organizations that the user is imported into.
 
 1. In the EnOS console, click **IAM > User** from the left navigation panel.  
-2. In the **External User** tab, click ![Image](media/delete.png) of the user to be deleted.
+2. In the **External User** tab, click |img1| of the user to be deleted.
 3. In the pop-up window, click **Confirm** to remove this user.
 
 ## Resetting Password
 
 1. In the EnOS console, click **IAM > User** from the left navigation panel.  
-2. In the **Internal User** tab, click ![Image](media/edit.png) after the user to reset password for.
+2. In the **Internal User** tab, click |img2| after the user to reset password for.
 3. In the **Edit User Information** page, click **Reset** next to the password. System will generate a new password which shows next to the **Reset**.
 4. Store this password in safety and click **Save**.
+
+
+.. |img1| image:: media/delete.png
+
+
+.. |img2| image:: media/edit.png

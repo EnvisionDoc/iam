@@ -6,14 +6,14 @@ Identity and Access Management
    :hidden:
    :caption: Back to
 
-   EnOS Fundamental <https://docs.envisioniot.com/docs/enos/en/latest/overview/enos_introduction.html>
+   EnOS™ Fundamental <https://docs.envisioniot.com/docs/enos/en/latest/overview/enos_introduction.html>
 
 .. toctree::
-    :maxdepth: 1
-    :caption: Learn
+   :maxdepth: 1
+   :caption: Learn
 
-    iam_overview
-    iam_concepts
+   iam_overview
+   iam_concepts
 
 .. toctree::
    :maxdepth: 1

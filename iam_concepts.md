@@ -8,34 +8,38 @@ In EnOS, an organization is the top-level management unit, it is a collection of
 
 ## User Account
 
- You can create multiple users within one organization. Each user account has its own credential (username and password) to log in to the   EnOS Console. The authorization of each user is specified by assigning appropriate policies to the user.
+You can create multiple users within one organization. Each user account has its own credential (username and password) to log in to the   EnOS Console. The authorization of each user is specified by assigning appropriate policies to the user.
 
 The user accounts in EnOS can be divided into the following types:
 
 - **System administrator**
-A system administrator is the super user who has complete, unrestricted access to all resources in a cloud instance. Each EnOS cloud instance has one or more system administrators.
-  - For public cloud, the system administrators are the Envision EnOS cloud administrators.
-  - For private cloud, the system administrators are usually designated staffs of the client's organization, who are responsible for managing the user accounts and resources at the corporate level.
-The system administrator can create OUs and have access to the system configuration. For more information, see [System Management Overview](system/system_overview).
+
+  A system administrator is a user who has full access to the management resources in a cloud instance. Each EnOS cloud instance has one or more system administrators.
+    - For public cloud, the system administrators are the Envision EnOS cloud administrators.
+    - For private cloud, the system administrators are usually designated staffs of the client's organization, who are responsible for managing the user accounts and resources at the corporate level.
+  The system administrator can create OUs and have access to the system configuration. For more information, see [System Management Overview](system/system_overview).
 
 - **OU owner**
-When a new organization unit is created in a cloud instance, a master account called OU owner is generated for the OU. The OU owner has complete, unrestricted access to all resources in this OU, including the access to the IAM module. Therefore, the OU owner can create accounts for other users and authorize the users under this OU via IAM.
+
+  When a new organization unit is created in a cloud instance, a master account called OU owner is generated for the OU. The OU owner has complete, unrestricted access to all resources in this OU, including the access to the IAM module. Therefore, the OU owner can create accounts for other users and authorize the users under this OU via IAM.
 
 
 - **OU administrator**
-The OU owner can create one or more OU administrators. An OU administrator is the user who has been assigned the built-in policy _administrator_ which has full access and management privileges, in particular, the access to IAM module. The OU administrators can manage the lifecycle of users and grant access policies for users. For more information, see [Getting Started with Creating a User Account in an OU](iam_gettingstarted_adduser).
+
+  The OU owner can create one or more OU administrators. An OU administrator is the user who has been assigned the built-in policy _administrator_ which has full access and management privileges, in particular, the access to IAM module. The OU administrators can manage the lifecycle of users and grant access policies for users. For more information, see [Getting Started with Creating a User Account in an OU](iam_gettingstarted_adduser).
 
 
 - **Ordinary user**
-An ordinary user is usually who has the minimum access rights that are just sufficient to complete their job responsibilities on EnOS. The OU owner or OU administrator can create users and assign access policies for the users.
 
-A user account can be added through the following approaches:
+  An ordinary user is usually who has the minimum access rights that are just sufficient to complete their job responsibilities on EnOS. The OU owner or OU administrator can create users and assign access policies for the users.
 
-  + **Internal user**: An internal user is created natively within a certain organization. The user can be authorized through being added into user groups, or assigned policies directly.
+  A user account can be added through the following approaches:
 
-  + **External user**: An external user, in the opposite, is created in other organizations. In EnOS, certain user accounts might need to work across organizations to perform IoT implementation and development. For example, you can import an operation staff, who is created in another organization, into your current organization. Such users can be assigned appropriate access rights in different OUs.
+    + **Internal user**: An internal user is created natively within a certain organization. The user can be authorized through being added into user groups, or assigned policies directly.
 
-  + **LDAP user**：LDAP users are imported through LDAP federation. For more information, see [LDAP Federation Overview](ldap/ldap_overview).
+    + **External user**: An external user, in the opposite, is created in other organizations. In EnOS, certain user accounts might need to work across organizations to perform IoT implementation and development. For example, you can import an operation staff, who is created in another organization, into your current organization. Such users can be assigned appropriate access rights in different OUs.
+
+    + **LDAP user**：LDAP users are imported through LDAP federation. For more information, see [LDAP Federation Overview](ldap/ldap_overview).
 
 ## User Group
 

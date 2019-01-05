@@ -6,7 +6,7 @@ It is to authorize the applications to access assets data which are created or p
 
 1. Click **IAM > Applicaton Authorization** from the left navigation panel of the EnOS Console.
 
-2. Click ![Image](media/edit.png) of the application that you want to grant permission.
+2. Click |img| of the application that you want to grant permission.
 
 3. In the **Asset Authorization** page.
 
@@ -17,3 +17,6 @@ It is to authorize the applications to access assets data which are created or p
 ## Note
 
 Once the “All Assets” option is checked, any new site accessed will be authorized for the current application by default.
+
+
+.. |img| image:: media/edit.png
