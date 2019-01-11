@@ -11,7 +11,8 @@ OU administrator
 
 You can create a user group and associate the access policies for this group.
 
-1. In the EnOS console, click **IAM > Group** from the left navigation panel.   
+1. In the EnOS console, click **IAM > Group** from the left navigation panel.
+  
 2. Click **New Group**.
 
 3. Enter the group name and click **Next**.
