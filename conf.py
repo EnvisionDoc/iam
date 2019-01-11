@@ -57,9 +57,9 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-project = 'EnOS Identity and Access Management'
-copyright = '2018, EnOS'
-author = 'Envision Digital'
+project = u'EnOS Identity and Access Management'
+copyright = u'2018, EnOS'
+author = u'Envision Digital'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -166,8 +166,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'EnOSDocumentationCenter.tex', 'EnOS Identity and Access Management',
-     'Envision Digital', 'manual'),
+    (master_doc, u'EnOSDocumentationCenter.tex', u'EnOS Identity and Access Management',
+     u'Envision Digital', 'manual'),
 ]
 
 
@@ -176,7 +176,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'enosdocumentationcenter', 'EnOS Identity and Access Management',
+    (master_doc, u'enosdocumentationcenter', u'EnOS Identity and Access Management',
      [author], 1)
 ]
 

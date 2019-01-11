@@ -20,3 +20,5 @@ Once the “All Assets” option is checked, any new site accessed will be autho
 
 
 .. |img| image:: media/edit.png
+
+<!--end-->

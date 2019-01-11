@@ -4,6 +4,7 @@ This article describes the schema of the event log.
 
 
 ## Sample Code
+
 ```
 {
   "userIdentity": {
@@ -79,7 +80,6 @@ This article describes the schema of the event log.
 The values returned for **eventName** are listed as follows.
 
 .. list-table::
-   :header-rows: 1
 
    * - Event Name
      - Action

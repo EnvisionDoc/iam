@@ -7,7 +7,6 @@ Process of importing and authorizing an LDAP user.
 .. image:: ../media/flow1.png   
    :width: 700px
 
-
 ## Target Audience
 
    OU Administrator
@@ -15,7 +14,9 @@ Process of importing and authorizing an LDAP user.
 ## Before You Begin
 
    1. Ensure that the LDAP server is working properly.
+
    2. You must know the username and password of the administrator account of the LDAP server. This administrator account should at least have full access to all base DNs.
+
    3. The access policies for LDAP users have been created in IAM. For detailed information, see [Managing policy](../managing_policies).
 
 ## Procedure
@@ -23,9 +24,11 @@ Process of importing and authorizing an LDAP user.
 ### Step 1: Establish Connection to LDAP Server
 
 To establish connection to the LDAP server:
+
 1. In the EnOS console, click **IAM > LDAP Federation** from the left navigation panel.
 
 2. In the **LDAP** page, Click **New LDAP Federation**. And provide the following settings:
+
    - **Realm**: The unique identity of the LDAP connection.
    - **Primary LDAP server**: The URL or IP address of the LDAP server.
    - **Port number**：Optionally, the port number of the LDAP server.
@@ -39,6 +42,7 @@ To establish connection to the LDAP server:
    - **Attribute mapping**: The mapping relationship between system attributes and LDAP attributes.
 
 3. Click **Test** to test the connection to the LDAP server.
+
    - If test succeed, click **Done** to create the LDAP connection.
    - If test failed, you need to check the correctness of the information you entered and re-test the connection.
 
@@ -51,6 +55,7 @@ After the LDAP connection has been created, in the **LDAP Connection** page, tog
 Import the LDAP users to IAM in advance can help you to authorize the LDAP users in batch.
 
 To import LDAP users, do the following steps:
+
 1. In the **LDAP Federation** page, click **view** after the LDAP server to edit.
 
 2. Click **Import Account**, then LDAP users that have been selected are imported to IAM.

@@ -18,3 +18,5 @@ OU Owner
 5. The detailed information of an event record is displayed in a pop-up window. For how to interpret the data in an event record, see [Event Log Schema](log_details).
 
 .. |img| image:: ../media/view_icon.png
+
+<!--end-->
