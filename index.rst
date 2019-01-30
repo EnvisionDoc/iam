@@ -3,13 +3,6 @@ Identity and Access Management
 
 .. toctree::
    :maxdepth: 1
-   :hidden:
-   :caption: Back to
-
-   EnOS™ Fundamental <https://docs.envisioniot.com/docs/enos/en/latest/overview/enos_introduction.html>
-
-.. toctree::
-   :maxdepth: 1
    :caption: Learn
 
    iam_overview
@@ -69,6 +62,6 @@ Identity and Access Management
 Downloads
 """"""""
     pdf_ htmlzip_ epub_
-.. _pdf: https://docs.envisioniot.com/projects/iam/downloads/pdf/latest/
-.. _htmlzip: https://docs.envisioniot.com/projects/iam/downloads/htmlzip/latest/
-.. _epub: https://docs.envisioniot.com/projects/iam/downloads/epub/latest/
+.. _pdf: https://www.envisioniot.com/projects/iam/downloads/pdf/latest/
+.. _htmlzip: https://www.envisioniot.com/projects/iam/downloads/htmlzip/latest/
+.. _epub: https://www.envisioniot.com/projects/iam/downloads/epub/latest/
