@@ -15,7 +15,7 @@ The following are the typical roles in EnOS and the suggested minimum permission
 The following services are the minimum required permissions for this role:
 - Model
 - Edge Gateway
-- Device Provisioning
+- Device Management
 
 ### IoT Engineer
 
@@ -27,7 +27,7 @@ The following services are the minimum required permissions for this role:
 
 The following services are the minimum required permissions for this role:
 - Edge Gateway
-- Device Provisioning
+- Device Management
 
 ### Assets Manager
 
@@ -46,7 +46,7 @@ The following services are the minimum required permissions for this role:
 **Recommended permissions**:
 
 The following services are the minimum required permissions for this role:
-- Application Management
+- Application Registration
 - EnOS APIs
 - SDK Center
 - Asset Alert
@@ -65,7 +65,7 @@ The following services are the minimum required permissions for this role:
 The following services are the minimum required permissions for this role:
 - Data IDE
 - Data Integration
-- Task Monitor
+- Workflow Operation
 - Data Explorer
-- Metadata Management
-- BI&Report
+- Metadata Explorer
+- Data Report

@@ -22,7 +22,7 @@ You can also manage the LDAP users in EnOS just as managing the internal and ext
 The following figure shows the workflow of the EnOS login method.
 
 .. image:: ../media/framework.png   
-   :width: 650px
+   
 
 
 <!--end-->

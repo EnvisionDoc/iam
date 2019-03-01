@@ -5,7 +5,7 @@ This article instructs how to import LDAP users from an LDAP server and authoriz
 Process of importing and authorizing an LDAP user.
 
 .. image:: ../media/flow1.png   
-   :width: 700px
+   
 
 ## Target Audience
 
