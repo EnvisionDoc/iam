@@ -30,6 +30,6 @@ When you delete a policy, EnOS revokes corresponding permissions for users and u
 
 3. In the pop-up window, click **Confirm** to complete deleting this policy.
 
-.. |img| image:: media/delete.png
+.. |img| image:: ../../media/delete.png
 
 <!--end-->

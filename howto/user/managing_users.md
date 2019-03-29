@@ -90,8 +90,8 @@ When you remove an external user, this user is removed only from the current org
 4. Store this password in safety and click **Save**.
 
 
-.. |img1| image:: media/delete.png
+.. |img1| image:: ../../media/delete.png
 
-.. |img2| image:: media/edit.png
+.. |img2| image:: ../../media/edit.png
 
 <!--end-->

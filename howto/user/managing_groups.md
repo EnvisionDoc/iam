@@ -39,6 +39,6 @@ When you delete a user group, the users belong to this user group will automatic
 3. In the pop-up window, click **Confirm** to delete the user group.
 
 
-.. |img| image:: media/delete.png
+.. |img| image:: ../../media/delete.png
 
 <!--end-->
