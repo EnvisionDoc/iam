@@ -6,7 +6,13 @@ Identity and Access Management
    :caption: Learn
 
    iam_overview
-   iam_concepts
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Concepts
+
+   user_usergroup
+   access_policy
 
 .. toctree::
    :maxdepth: 1
@@ -18,11 +24,9 @@ Identity and Access Management
 .. toctree::
    :maxdepth: 1
    :caption: How-to's
-
-   managing_policies
-   managing_users
-   managing_groups
-   enabling_disabling_multi_factor_auth.md
+   
+   howto/user/index.rst
+   
 
 .. toctree::
    :maxdepth: 1
