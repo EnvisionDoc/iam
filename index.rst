@@ -25,7 +25,9 @@ Identity and Access Management
    :maxdepth: 1
    :caption: How-to's
    
+   howto/managing_org_info_account
    howto/user/index.rst
+   howto/service_account/index.rst
    
 
 .. toctree::
