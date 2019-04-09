@@ -18,31 +18,32 @@ You may implement the requirements on password strength by configuring the passw
 1. Select **IAM > Security Setting**;
 
 2. Select **Edit**, and you may set proper password policies for OU in the "Password Policy" section.
+   
    EnOS supports the following password policies:
 
-.. csv-table::
-   :widths: auto
+   .. csv-table::
+      :widths: auto
 
-   "Password Strength", "Requirements"
-   "Medium (default)", "- Password length requirements: 8 digits;
-   - at least one uppercase English letter
-   - at least one lowercase English letter
-   - at least one number
-   - password expiration (days) enabled: the password remains valid for 180 days (inclusive)
-   - Password reuse disabled: the latest 2 passwords are logged for repeat check"
-   "Strong", "- Password length requirements: 12 digits;
-   - at least one uppercase English letter
-   - at least one lowercase English letter
-   - at least one number
-   - password expiration (days) enabled: the password keeps valid for 90 days (inclusive)
-   - Password reuse disabled: the latest 3 passwords are logged for repeat check"
-   "Very Strong", "- Password length requirements: 16 digits;
-   - at least one uppercase English letter
-   - at least one lowercase English letter
-   - at least one number
-   - at least one special character (including `!@#¥%&*()[]{}-_=|`)
-   - password expiration (days) enabled: the password keeps valid for 60 days (inclusive)
-   - Password reuse disabled: the latest 5 passwords are logged for repeat check"
+      "Password Strength", "Requirements"
+      "Medium (default)", "- Password length requirements: 8 digits;
+      - at least one uppercase English letter
+      - at least one lowercase English letter
+      - at least one number
+      - password expiration (days) enabled: the password remains valid for 180 days (inclusive)
+      - Password reuse disabled: the latest 2 passwords are logged for repeat check"
+      "Strong", "- Password length requirements: 12 digits;
+      - at least one uppercase English letter
+      - at least one lowercase English letter
+      - at least one number
+      - password expiration (days) enabled: the password keeps valid for 90 days (inclusive)
+      - Password reuse disabled: the latest 3 passwords are logged for repeat check"
+      "Very Strong", "- Password length requirements: 16 digits;
+      - at least one uppercase English letter
+      - at least one lowercase English letter
+      - at least one number
+      - at least one special character (including `!@#¥%&*()[]{}-_=|`)
+      - password expiration (days) enabled: the password keeps valid for 60 days (inclusive)
+      - Password reuse disabled: the latest 5 passwords are logged for repeat check"
 
 3. Click **Save** to complete the configuration of password policies
 
