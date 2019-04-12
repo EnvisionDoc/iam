@@ -1,6 +1,6 @@
 # Managing Service Accounts
 
-The service account is a special EnOS account, which is required when an application accesses the resources on EnOS through APIs. Authorizing a service account allows applications to access the authorized resources on EnOS.
+The service account is a special EnOS account, which is required when an application accesses the resources on EnOS through APIs. A service account is obtained when a user registers an application under the current OU or purchases an application from another OU. Authorizing a service account allows applications to access the authorized resources on EnOS.
 
 ## About This Task
 
