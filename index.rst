@@ -66,9 +66,3 @@ Identity and Access Management
    system/managing_organization
 
 
-Downloads
-""""""""
-    pdf_ htmlzip_ epub_
-.. _pdf: https://www.envisioniot.com/projects/iam/downloads/pdf/latest/
-.. _htmlzip: https://www.envisioniot.com/projects/iam/downloads/htmlzip/latest/
-.. _epub: https://www.envisioniot.com/projects/iam/downloads/epub/latest/

@@ -26,10 +26,10 @@ When you delete a policy, EnOS revokes corresponding permissions for users, user
 
 1. In the EnOS console, click **IAM > User policy** from the left navigation panel.
 
-2. Click the delete icon |img| for the policy to delete.
+2. Click the delete icon |delete| for the policy to delete.
 
 3. In the pop-up window, click **Confirm** to complete deleting this policy.
 
-.. |img| image:: ../../media/delete.png
+.. |delete| image:: ../media/delete.png
 
 <!--end-->
