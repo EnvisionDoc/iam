@@ -13,6 +13,7 @@ The built-in IAM schemes of EnOS provide capabilities of identity management, au
 With IAM, a hierarchy structure is introduced to represent the relationship that exists within an organization. Each tenant is identified as an organizational unit (OU).
 
 EnOS offers the following types of identities:
+
 - *User accounts* are usually created for EnOS Console users and operation staff.
 - *Service accounts* (a.k.a. Application tokens) are assigned to applications, for accessing the EnOS service APIs.
 - *Device identities* are assigned to all devices (including edge devices) that connect to the EnOS Cloud.

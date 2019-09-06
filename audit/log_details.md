@@ -80,6 +80,7 @@ This article describes the schema of the event log.
 The values returned for **eventName** are listed as follows.
 
 .. list-table::
+   :widths: auto
 
    * - Event Name
      - Action
@@ -106,7 +107,7 @@ The values returned for **eventName** are listed as follows.
    * - removeExternalUser
      - Remove an external user
    * - createGroup
-     - Create a user group
+     - Create a user
    * - deleteGroup
      - Delete a user group
    * - addUserToGroup

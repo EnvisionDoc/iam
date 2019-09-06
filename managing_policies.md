@@ -1,6 +1,6 @@
 # Creating and Managing Policy
 
-This article instructs how to manage policies that define the access permissions to specific resources. This task is the prerequisite to managing the custom access rights of user, user groups, and service accounts.
+This article instructs how to manage policies that define the access permissions to specific resources.
 
 ## Creating a Policy
 
@@ -22,14 +22,15 @@ You can create a policy in the following approaches:
 
 ## Deleting a Policy
 
-When you delete a policy, EnOS revokes corresponding permissions for users, user groups, or service accounts who have been granted this policy.
+When you delete a policy, EnOS revokes corresponding permissions for users and user groups who have been granted this policy.
 
-1. In the EnOS console, click **IAM > User policy** from the left navigation panel.
+1. In the EnOS console, click **IAM > User policy** from the left navigation panel.   
 
 2. Click the delete icon |delete| for the policy to delete.
 
 3. In the pop-up window, click **Confirm** to complete deleting this policy.
 
-.. |delete| image:: ../media/delete.png
+
+.. |delete| image:: media/delete.png
 
 <!--end-->

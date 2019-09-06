@@ -15,7 +15,7 @@ The following are the typical roles in EnOS and the suggested minimum permission
 The following services are the minimum required permissions for this role:
 - Model
 - Edge Gateway
-- Device Management
+- Device Provisioning
 
 ### IoT Engineer
 
@@ -27,7 +27,7 @@ The following services are the minimum required permissions for this role:
 
 The following services are the minimum required permissions for this role:
 - Edge Gateway
-- Device Management
+- Device Provisioning
 
 ### Assets Manager
 
@@ -46,7 +46,7 @@ The following services are the minimum required permissions for this role:
 **Recommended permissions**:
 
 The following services are the minimum required permissions for this role:
-- Application Registration
+- Application Management
 - EnOS APIs
 - SDK Center
 - Asset Alert
@@ -55,6 +55,7 @@ The following services are the minimum required permissions for this role:
 ### Data Developer and Analyst
 
 **Major duties**: Missioned with data-driven business analysis, their responsibilities are to:
+
 - Based on the data storage and computing capabilities, use the scheduling workflows to perform data extraction, transformation, and loading (ETL).
 - Develop data structure and algorithm
 - Perform data analysis and data mining
@@ -65,7 +66,7 @@ The following services are the minimum required permissions for this role:
 The following services are the minimum required permissions for this role:
 - Data IDE
 - Data Integration
-- Workflow Operation
+- Task Monitor
 - Data Explorer
-- Metadata Explorer
-- Data Report
+- Metadata Management
+- BI&Report

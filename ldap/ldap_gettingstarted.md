@@ -4,20 +4,21 @@ This article instructs how to import LDAP users from an LDAP server and authoriz
 
 Process of importing and authorizing an LDAP user.
 
-.. image:: ../media/flow1.png   
-   
+.. image:: ../media/flow1.png
+
 
 ## Target Audience
 
-   OU Administrator
+OU Administrator
+
 
 ## Before You Begin
 
-   1. Ensure that the LDAP server is working properly.
+1. Ensure that the LDAP server is working properly.
 
-   2. You must know the username and password of the administrator account of the LDAP server. This administrator account should at least have full access to all base DNs.
+2. You must know the username and password of the administrator account of the LDAP server. This administrator account should at least have full access to all base DNs.
 
-   3. The access policies for LDAP users have been created in IAM. For detailed information, see [Managing policy](../managing_policies).
+3. The access policies for LDAP users have been created in IAM. For detailed information, see [Managing policy](../managing_policies).
 
 ## Procedure
 
@@ -35,7 +36,7 @@ To establish connection to the LDAP server:
    - **Base DN**: The root distinguished name (DN) to use when importing users from the directory server. You can configure multiple base DNs under one LDAP server at once. Multiple base DNs are separated by semicolon (;). For example: cn=users,dc=example,dc=com;ou=users,dc=example,dc=com.
    - **Filter**: The filter to use when limit the entries within the base DNs. For example: FILTER=memberOf=CN=group,CN=developers,DC=example,DC=com.
 
-   .. note:: Ensure that the entries have been selected are all valid account entries.
+     .. note:: Ensure that the entries have been selected are all valid account entries.
 
    - **User DN or name**: The username of the LDAP administrator account.
    - **Password**: The password of the LDAP administrator account.
@@ -46,9 +47,11 @@ To establish connection to the LDAP server:
    - If test succeed, click **Done** to create the LDAP connection.
    - If test failed, you need to check the correctness of the information you entered and re-test the connection.
 
+
 ### Step 2: Enable LDAP Authentication
 
 After the LDAP connection has been created, in the **LDAP Connection** page, toggle the **LDAP Authentication** switch button to enable the LDAP user login.
+
 
 ### (Optional) Step 3: Import LDAP Users to IAM
 

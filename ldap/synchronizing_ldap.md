@@ -3,7 +3,8 @@
 You can manually synchronize user account data from the LDAP server when the LDAP server is updated. For example, when users or directories have been changed.
 
 ## Target Audience
-   OU Administrator
+
+OU Administrator
 
 ## Procedure
 

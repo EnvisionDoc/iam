@@ -4,23 +4,24 @@ This article instructs how to create and manage an organization. You also can as
 
 
 ## Target Audience
-
    OU Owner
 
 ## Creating an Organization
 
 You can create an organization in the following approaches:
 
-1. In the EnOS console, click **System Management > Organization** from the left navigation panel.
+1. In the EnOS console, click **Management > Organization** from the left navigation panel.
 
 2. Click **New Organization**.
 
 3. In the **New Organization** page, provide the information of the organization and the owner, Among these settings:
 
    - **Send by**
-      - offline: indicates to send the account information offline.
-      - Send by phone: indicates to send the account information via messaging to the registered mobile phone number.
-      - Send by email: indicates to send the account information via sending email to the registered email address.
+
+     - offline: indicates to send the account information offline.
+     - Send by phone: indicates to send the account information via messaging to the registered mobile phone number.
+     - Send by email: indicates to send the account information via sending email to the registered email address.
+
    - **Password**: you can set the initial password, or you can let the system to auto-generate the password for the account.
 
 4. (Optional) In the **admin information** section, you can assign a user to be the administrator of this organization.
@@ -28,15 +29,16 @@ You can create an organization in the following approaches:
    - Click **Assign to**.
    - In the pop-up window, enter the full username. If the name is correct, the detailed information of the user will display in the dialog. Then click **Confirm**.
 
-5. Click  **Save** on the up-right corner to create the organization.
+5. Click **Save** on the up-right corner to create the organization.
+
+
 
 ## Resetting Password of an OU Owner
-
 You can reset the password of an OU Owner in the following approaches:
 
-1. In the EnOS console, click **System Management > Organization** from the left navigation panel.
+1. In the EnOS console, click **Management > Organization** from the left navigation panel.
 
-2. Click |img1| of the organization that the OU owner belongs to.
+2. Click |edit| of the organization that the OU owner belongs to.
 
 3. In the **Organization Profile** page, click **Reset Password** on the top of the page.
 
@@ -46,12 +48,11 @@ You can reset the password of an OU Owner in the following approaches:
 
 
 ## Assigning Application to an Organization
-
 You can assign application to an organization in the following approaches:
 
-1. In the EnOS console, click **System Management > Organization** from the left navigation panel.
+1. In the EnOS console, click **Management > Organization** from the left navigation panel.
 
-2. Click |img2| of the organization to be updated.
+2. Click |authorize| of the organization to be updated.
 
 3. In the **Application Authorization** page, select the applications to be assigned to this organization.
 
@@ -59,9 +60,9 @@ You can assign application to an organization in the following approaches:
 
 4. Click **Save** on the up-right corner to assign the permission.
 
+.. |authorize| image:: ../media/authorize.png
 
-.. |img1| image:: ../media/edit.png
+.. |edit| image:: ../media/edit.png
 
-.. |img2| image:: ../media/authorize.png
 
 <!--end-->

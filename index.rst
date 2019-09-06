@@ -6,13 +6,7 @@ Identity and Access Management
    :caption: Learn
 
    iam_overview
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Concepts
-
-   user_usergroup
-   access_policy
+   iam_concepts
 
 .. toctree::
    :maxdepth: 1
@@ -24,12 +18,11 @@ Identity and Access Management
 .. toctree::
    :maxdepth: 1
    :caption: How-to's
-   
-   howto/managing_org_info_account
-   howto/managing_policies
-   howto/user/index.rst
-   howto/service_account/index.rst
-   
+
+   managing_policies
+   managing_users
+   managing_groups
+   enabling_disabling_multi_factor_auth.md
 
 .. toctree::
    :maxdepth: 1
@@ -66,3 +59,9 @@ Identity and Access Management
    system/managing_organization
 
 
+Downloads
+""""""""
+    pdf_ htmlzip_ epub_
+.. _pdf: https://www.envisioniot.com/projects/iam/downloads/pdf/latest/
+.. _htmlzip: https://www.envisioniot.com/projects/iam/downloads/htmlzip/latest/
+.. _epub: https://www.envisioniot.com/projects/iam/downloads/epub/latest/

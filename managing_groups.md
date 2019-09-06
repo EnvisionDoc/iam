@@ -11,8 +11,8 @@ OU administrator
 
 You can create a user group and associate the access policies for this group.
 
-1. In the EnOS console, click **IAM > Group** from the left navigation panel.
-  
+1. In the EnOS console, click **IAM > Group** from the left navigation panel.  
+
 2. Click **New Group**.
 
 3. Enter the group name and click **Next**.
@@ -34,11 +34,10 @@ When you delete a user group, the users belong to this user group will automatic
 
 1. In the EnOS console, click **IAM > User Group** from the left navigation panel.
 
-2. Click the delete icon |img| for the user group to delete.
+2. Click the delete icon |delete| for the user group to delete.
 
 3. In the pop-up window, click **Confirm** to delete the user group.
 
-
-.. |img| image:: ../../media/delete.png
+.. |delete| image:: media/delete.png
 
 <!--end-->
