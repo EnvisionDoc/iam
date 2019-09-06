@@ -10,7 +10,7 @@ This topic describes how to authorize the service account for applications.
 
 - You must be an OU administrator.
 
-- You have registered an application on the current OU, or have purchased an application from another OU. For more information, refer to [Managing Applications](https://www.envisioniot.com/docs/app-development/en/latest/managing_apps.html).
+- You have registered an application on the current OU, or have purchased an application from another OU. For more information, refer to [Managing Applications](/docs/app-development/en/latest/managing_apps.html).
 
 - If you want to authorize with custom policies, you must have created your policy. For more information, see [Creating and Managing Policy](../managing_policies)
 
